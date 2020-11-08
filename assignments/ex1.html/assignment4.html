@@ -1,0 +1,95 @@
+<html>
+<head>
+  <style>
+  h1 {
+    text-align: center;
+  }
+  form {
+
+    border-radius: 0px;
+    background-color: white;
+    width:500px;
+
+  }
+  body {
+       background-color: #dcdee0;
+       margin: 40px;
+       background-size: cover;
+       background-position: center;
+  }
+  button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  height:40px;
+}
+#topbar
+{
+  background-color:black;
+  height:20px;
+  width:100%;
+}
+
+#header ul
+{height:40px;
+  background-color:white;
+   box-shadow: 2px 2px 2px black;
+  width:100%;
+  margin-top:25px;
+}
+
+#header ul li
+{
+  display:inline;
+  margin-right: 20px;
+  box-shadow: 2px 2px 2px black;
+  
+}
+#header ul li a
+{
+ color:blue;
+ text-decoration: none;
+}
+  </style>
+</head>
+<body>
+  <div id="topbar">
+  </div>
+  <div id="container">
+    <div id="header">
+      <ul>
+        <li style="background-color:yellow"><a  href="#">ShowTrackr</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Add</a></li>
+        <li style="float:right"><a href="#signup"> Sign up </a></li>
+        <li style="float:right"><a href="#login"> Login </a></li>
+      </ul>
+
+    </div>
+  </div>
+  <br><br><br><br>
+  <center>
+  <form>
+      <h1> Log in</h1>
+
+  <div class="container">
+    <div class="card">
+      <input type="text" placeholder="@ Email" style=" width:50%;  height:30px;"> <br><br>
+      <input type="password" placeholder="! Password"  style="width:50%;  height:30px;"> <br><br>
+       <button type="submit"> Login </button><br>
+       <p > Forgot your password? </p>
+       <a href="#" > Don't have an account yet? </a>Sign Up <br>
+    </div>
+  </div>
+  <hr>or<br>
+
+  <input type="submit" name="facebook" value="f Sign in with Facebook" style ="width:50%; background-color:blue;  height:30px;"> <br></br>
+  <input type="submit" name="google" value="g+ Sign in with Google" style ="width:50%; background-color:red; height:30px;">
+</center>
+</form>
+</body>
+</html>
